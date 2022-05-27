@@ -1,0 +1,126 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(240, 240, 240);
+    width: 0 auto;
+    color: rgb(71, 71, 71);
+}
+.first_logo_icon{
+    height: 70px;
+    width: 0 auto;
+    background-color: rgb(71, 71, 71);
+    img{
+        height: 60px;
+        width: 60px;    
+    }
+.But1{
+    background-color: rgb(71, 71, 71);
+    height: 70px;
+    width: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    transition-duration: 1s;
+    background-color: rgb(71, 71, 71);
+    color: #ffffff;
+    border-width: 1px;
+    width: 120px;
+}
+input:hover{
+    background-color: #ffffff;
+    color: rgb(71, 71, 71);
+}
+
+ }
+ header{
+     width: 0 auto;
+     height: 500px;
+     background-color: rgb(240, 240, 240);
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    h1{
+        text-align: center;
+        padding-bottom: 3rem;   
+    }
+    .part_1{
+        .text_1{
+            width: 500px;
+            height: 330px;
+            p{
+                padding-left: 3rem;
+                text-align: start;
+            }
+        }
+        img{
+            padding-left: 3rem;
+        }
+        display: flex;
+        height: 350px;
+    }
+ }
+ .part_2{
+     img{
+         padding-right: 3rem;
+     }
+     .text_2{
+        padding-top: 5rem;
+     }
+    p{
+        text-align: end;
+        padding-right: 3rem;
+        padding-left: 10rem;
+    }
+    display: flex;
+    height: 330px;
+    background-color: rgb(240, 240, 240);
+ }
+.part_3{
+    display: flex;
+    height: 330px;
+    background-color: rgb(240, 240, 240);
+    img{
+        padding-left: 3rem;
+    }
+    .text_3{
+        padding-left: 3rem;
+        text-align: start;
+        width: 350px;
+    }
+    p{
+        padding-top: 3rem;
+        text-align: start;
+    }
+}
+footer{
+    background-color: rgb(179, 179, 179);
+    width: 0 auto;
+    height: 100px;
+    display: flex;
+    .foot_line{
+        background-color: rgb(216, 215, 215);
+        width: 0 auto;
+        height: 30px;
+    }
+    .foot_1{
+        padding-top: 20px;
+        padding-left: 10px;
+        width: 100px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .foot_2{
+        display: flex;
+        padding-top: 20px;
+        padding-left: 10px;
+        width: 100px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

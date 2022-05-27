@@ -1,0 +1,166 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #f0f0f0;
+  width: 0 auto;
+  color: #474747;
+}
+
+.first_logo_icon {
+  height: 70px;
+  width: 0 auto;
+  background-color: #474747;
+}
+
+.first_logo_icon img {
+  height: 60px;
+  width: 60px;
+}
+
+.first_logo_icon .But1 {
+  background-color: #474747;
+  height: 70px;
+  width: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first_logo_icon input {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background-color: #474747;
+  color: #ffffff;
+  border-width: 1px;
+  width: 120px;
+}
+
+.first_logo_icon input:hover {
+  background-color: #ffffff;
+  color: #474747;
+}
+
+header {
+  width: 0 auto;
+  height: 500px;
+  background-color: #f0f0f0;
+}
+
+header img {
+  width: 300px;
+  height: 300px;
+}
+
+header h1 {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+header .part_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 350px;
+}
+
+header .part_1 .text_1 {
+  width: 500px;
+  height: 330px;
+}
+
+header .part_1 .text_1 p {
+  padding-left: 3rem;
+  text-align: start;
+}
+
+header .part_1 img {
+  padding-left: 3rem;
+}
+
+.part_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 330px;
+  background-color: #f0f0f0;
+}
+
+.part_2 img {
+  padding-right: 3rem;
+}
+
+.part_2 .text_2 {
+  padding-top: 5rem;
+}
+
+.part_2 p {
+  text-align: end;
+  padding-right: 3rem;
+  padding-left: 10rem;
+}
+
+.part_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 330px;
+  background-color: #f0f0f0;
+}
+
+.part_3 img {
+  padding-left: 3rem;
+}
+
+.part_3 .text_3 {
+  padding-left: 3rem;
+  text-align: start;
+  width: 350px;
+}
+
+.part_3 p {
+  padding-top: 3rem;
+  text-align: start;
+}
+
+footer {
+  background-color: #b3b3b3;
+  width: 0 auto;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .foot_line {
+  background-color: #d8d7d7;
+  width: 0 auto;
+  height: 30px;
+}
+
+footer .foot_1 {
+  padding-top: 20px;
+  padding-left: 10px;
+  width: 100px;
+}
+
+footer .foot_1 img {
+  width: 20px;
+  height: 20px;
+}
+
+footer .foot_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 10px;
+  width: 100px;
+}
+
+footer .foot_2 img {
+  width: 20px;
+  height: 20px;
+}
+/*# sourceMappingURL=site.css.map */

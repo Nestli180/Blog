@@ -1,0 +1,86 @@
+{% load static %}
+<html> 
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'News/Home.css' %}" />
+    <link rel="stylesheet" type="text/scss" href="{% static 'News/Home.scss' %}" />
+    <title>Home</title>
+   </head>
+   <body>
+       <header>
+            <div class="But1">
+                <form>
+                    <input type="button" target="_blank" value="Home" onClick='location.href="http://127.0.0.1:8000/#myblog"'>
+                </form>
+                <div class="room"></div>
+                <form>
+                    <input type="button" target="_blank" value="News" onClick='location.href="#news"'>
+                </form>
+                <form>
+                    <input type="button" target="_blank" value="My Blog" onClick='location.href="#myblog"'>
+                </form>
+            </div>
+            <section class="cent">
+                <div class="ava">
+                    <img src="https://devshift.biz/wp-content/uploads/2017/04/profile-icon-png-898.png" alt="">
+                    <div class="centered_txt">
+                        <h3>Nazar Shulskiy</h3>
+                    </div>
+                </div> 
+            <section class="me">
+                <h2>Про мене</h2>
+                <p>Мене звати Назар, мені 16 років , народився 22 квітня 2006 році. Живу в Україні, в місті Ківерці.Вчуся в Технічному Фаховому Коледжі Луцького НТУ (перший курс).Займався бальними танцями, плаванням. Моє хоббі - малювання.</p>
+            </section>    
+                <h1 id="myblog">My blog</h1>
+                <div class="But2">
+                    <form>
+                        <input type="button" target="_blank" value="My hobbie" onClick='location.href="http://127.0.0.1:5500/Blog/Home/News/templates/News/site.html"'>
+                    </form>
+                </div>
+                    <h1 id="news">News</h1>
+                <section class="news_1">
+                    <div class="part_1">
+                        <img src="https://img.pravda.com/images/doc/2/8/28d5d10-7f5c60c-morport-mariupol.jpg" alt="">
+                        <div class="centered_txt">
+                            <a href="https://www.pravda.com.ua/news/2022/05/21/7347572/" target="_blank">Окупанти розміновують порт у Маріуполі – штаб</a>
+                        </div>
+                    </div>
+                    <div class="part_2">
+                        <img src="https://img.pravda.com/images/doc/9/8/985625c--------.jpg" alt="">
+                        <div class="centered_txt">
+                            <a href="https://www.pravda.com.ua/news/2022/05/21/7347570/" target="_blank">Ворог планує наступ у напрямку Ямпіль – Сіверськ – зведення штабу</a>
+                        </div>
+                    </div>
+                    <div class="part_3">    
+                        <img src="https://img.pravda.com/images/doc/a/2/a28cbfe-283257034-377792211055400-7491313196869401582-n.jpg" alt="">
+                        <div class="centered_txt">
+                            <a href="https://www.pravda.com.ua/news/2022/05/20/7347553/" target="_blank">У п'ятницю Протиповітряна оборона "приземлила" 5 російських цілей</a>
+                        </div>
+                    </div>
+                    </section>
+            </section>
+            <section class="news_2">
+                <div class="part_4">    
+                    <img src="https://img.pravda.com/images/doc/7/2/7245148-282406687-378370411001363-1291926966589347415-n.jpg" alt="">
+                    <div class="centered_txt">
+                        <a href="https://www.pravda.com.ua/news/2022/05/21/7347575/" target="_blank">Плани ворога – оточити Луганщину або зробити з неї згарище – Гайдай</a>
+                    </div>
+                </div>
+                <div class="part_5">    
+                    <img src="https://img.pravda.com/images/doc/3/d/3de5a9c-690gayday.jpg" alt="">
+                    <div class="centered_txt">
+                        <a href="https://www.pravda.com.ua/news/2022/05/20/7347552/" target="_blank">Гайдай про намір РФ захопити Луганщину: Шойгу не розуміє реального стану речей</a>
+                    </div>
+                </div>
+                <div class="part_6">    
+                    <img src="https://img.pravda.com/images/doc/c/9/c9aaaed-gettyimages-1240315652.jpg" alt="">
+                    <div class="centered_txt">
+                        <a href="https://www.pravda.com.ua/news/2022/05/20/7347533/" target="_blank">ППО для України: у новому пакеті допомоги від США є ЗРК Patriot – WP</a>
+                    </div>
+                </div>
+            </section>
+        </header>
+   </body>
+</html>

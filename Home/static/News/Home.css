@@ -1,0 +1,164 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #f0f0f0;
+  width: 0 auto;
+  color: #474747;
+}
+
+header {
+  width: 0 auto;
+  height: 500px;
+  background-color: #f0f0f0;
+}
+
+.But1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #474747;
+  height: 70px;
+  width: 0 auto;
+}
+
+.room {
+  width: 950px;
+  height: 70px;
+}
+
+.cent {
+  text-align: center;
+}
+
+.ava {
+  width: 300px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ava img {
+  width: 300px;
+  height: 300px;
+}
+
+.ava .centered_txt {
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.But2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.me {
+  text-align: left;
+  width: 500px;
+}
+
+.button {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background-color: #474747;
+  color: #ffffff;
+  border-width: 1px;
+  width: 120px;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #474747;
+}
+
+input {
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  background-color: #474747;
+  color: #ffffff;
+  border-width: 1px;
+  width: 120px;
+}
+
+input:hover {
+  background-color: #ffffff;
+  color: #474747;
+}
+
+.news_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 0 auto;
+  height: 310px;
+  background-color: #474747;
+}
+
+.news_1 img {
+  width: 420px;
+  height: 250px;
+}
+
+.news_1 a {
+  color: #f0f0f0;
+}
+
+.part_1 {
+  margin: 10px;
+  height: 280px;
+}
+
+.part_2 {
+  margin: 10px;
+  height: 280px;
+}
+
+.part_3 {
+  margin: 10px;
+  height: 280px;
+}
+
+.part_4 {
+  margin: 10px;
+  height: 280px;
+}
+
+.part_5 {
+  margin: 10px;
+  height: 280px;
+}
+
+.part_6 {
+  margin: 10px;
+  height: 280px;
+}
+
+.news_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 0 auto;
+  height: 330px;
+  background-color: #474747;
+  color: #f0f0f0;
+}
+
+.news_2 img {
+  width: 420px;
+  height: 250px;
+}
+
+.news_2 a {
+  color: #f0f0f0;
+}
+/*# sourceMappingURL=Home.css.map */
